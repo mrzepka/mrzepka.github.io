@@ -27,11 +27,21 @@ body {
 	background-color: white;
 	cursor:pointer;
 	color:black;
-	width: 25px;
+	align: center;
+	width: 150px;
 	height: 25px;
 }
 
+.secondaryLink {
+	color: red;
+}
+
 #aboutLink:hover{
+	background-color: red;
+	box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+
+#homeLink:hover {
 	background-color: red;
 	box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
 }
