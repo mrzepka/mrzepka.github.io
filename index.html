@@ -3,22 +3,31 @@
 
 	<head>
 		<title>Matt Rzepka | A personal site</title>
-		<link rel="stylesheet" type="text/css" href="style.css" />
+		
 		<script type="text/javascript" src="../js/script.js"></script>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" type="text/css" href="style.css" />
 	</head>
 	
 	<body>
-	
 		<header>
 			<h1>Matt Rzepka</h1>
 			<h4>University of Maryland	<br>	Major: Computer Science	Minor: Geographic Information Science</h4>
 			<h4>matthewrzepka@gmail.com</h4>
 		</header>
+
+		<div class="pure-menu pure-menu-open pure-menu-horizontal">
+			<ul>
+			<li class="pure-menu-selected"><a href="#">Home</a></li>
+			<li><a class="about-button" href="about.html">About</a></li>
+			<li><a class="projects-button" href="projects.html">Projects</a></li>
+			<li><a class="experience-button" href="experience.html">Experience</a></li>
+
+			</ul>
+		</div>
 		
-		<button type="button" id="aboutLink" class="indexButton" onclick="location.href='about.html'">About Me</button>
-		<button type="button" id="projectsLink"class="indexButton" onclick="location.href='projects.html'">Projects</button>
-		<button type="button" id="experienceLink" class="indexButton" onclick="location.href='experience.html'">Past Experience</button>
 		
 		<!--
 		<h2>Relevant Classes</h2>
